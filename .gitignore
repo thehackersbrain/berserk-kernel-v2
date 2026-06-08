@@ -1,0 +1,13 @@
+/*.old
+/*.orig
+/*.rej
+pkg/
+src/
+*.zst
+*.sig
+*.tar.*
+
+localversion.20-pkgname
+.SRCINFO
+*.patch
+config
