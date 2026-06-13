@@ -35,7 +35,7 @@
 pkgbase=berserk-kernel
 _major=7.0
 _minor=12
-_tagrel=2
+_tagrel=1
 pkgver=${_major}.${_minor}.${_tagrel}
 pkgrel=1
 _srcname=cachyos-${_major}.${_minor}-${_tagrel}
