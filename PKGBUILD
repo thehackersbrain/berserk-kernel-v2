@@ -33,9 +33,9 @@
 # ------------------------------------------------------------------------------
 
 pkgbase=berserk-kernel
-_major=7.0
-_minor=12
-_tagrel=2
+_major=7.1
+_minor=0
+_tagrel=1
 pkgver=${_major}.${_minor}.${_tagrel}
 pkgrel=1
 _srcname=cachyos-${_major}.${_minor}-${_tagrel}
@@ -78,10 +78,10 @@ validpgpkeys=(
   E18447AC260021D31F3FF6C4C8A2A4774B8B63C4 # Eric Naim <dnaim@cachyos.org>
   E8B9AA39F054E30E8290D492C3C4820857F654FE # Peter Jung <admin@ptr1337.dev>
 )
-sha256sums=('73c56213577c82dea5799781048d5265efe4fcb9f43075809edb3f76a7e21ff2'
+sha256sums=('b2c4475c24371d63b22ad9b029df76ac6aa5d40950cf1e6c757be7339d8babd0'
             'SKIP'
-            'ff6f8d9f1f3eb6f115e962cb3d6374d2c1e7a3f2449fc33cac62681a2440aa7e'
-            'f594e3a0cf55649377e09bc22e6dd5152ecafe6a96460a68036a35bba5ba932e')
+            'ceb8555c560c02d891125a2248bbccde5f25db43f7aadd59a98593b35f98a6b0'
+            '345ed557d0eac4e55ccc3552f97601873f774c6a282d27bfdb236dc817285c17')
 
 export KBUILD_BUILD_HOST=berserkarch
 export KBUILD_BUILD_USER="$pkgbase"
