@@ -34,7 +34,7 @@
 
 pkgbase=berserk-kernel
 _major=7.1
-_minor=3
+_minor=4
 _tagrel=1
 pkgver=${_major}.${_minor}.${_tagrel}
 pkgrel=1
@@ -78,9 +78,9 @@ validpgpkeys=(
   E18447AC260021D31F3FF6C4C8A2A4774B8B63C4 # Eric Naim <dnaim@cachyos.org>
   E8B9AA39F054E30E8290D492C3C4820857F654FE # Peter Jung <admin@ptr1337.dev>
 )
-sha256sums=('ea988276c00d598296bfad198d7c82a039f646d46a0ec096dca9aab66fdd8660'
+sha256sums=('4bf46986b05bb48fd0bb7e48bea3d97225e060994791bf3c1e292181468989ce'
             'SKIP'
-            'ceb8555c560c02d891125a2248bbccde5f25db43f7aadd59a98593b35f98a6b0'
+            'ef721ae680109993eca463c8847553cf8c2775f6626da4ea9b460f0588b7969b'
             '345ed557d0eac4e55ccc3552f97601873f774c6a282d27bfdb236dc817285c17')
 
 export KBUILD_BUILD_HOST=berserkarch
