@@ -34,7 +34,7 @@
 
 pkgbase=berserk-kernel
 _major=7.2
-_minor=4
+_minor=5
 _tagrel=1
 pkgver=${_major}.${_minor}.${_tagrel}
 pkgrel=1
@@ -78,7 +78,7 @@ validpgpkeys=(
   E18447AC260021D31F3FF6C4C8A2A4774B8B63C4 # Eric Naim <dnaim@cachyos.org>
   E8B9AA39F054E30E8290D492C3C4820857F654FE # Peter Jung <admin@ptr1337.dev>
 )
-sha256sums=('40099115ec06ab2a780e61e9844b485712d497b4082b1e4a216fbec362c5360f'
+sha256sums=('ff940b3a3a04a3fd15520814b08b240fddcddce696f805ae00a0584be0aba1c7'
             'SKIP'
             '3df33112e3357feb6a899bbfc006f2ded15226d1b2eb741ac986d581b9ca7773'
             '1809a4d4d6508a2a3f92cd8b3b385640583f90bd6cee46584f4bf105affd24a0')
